@@ -15,7 +15,8 @@ def main():
     def nextpage():
         root.destroy()
         unamegettarr.main()
-
+    lab = tk.Label(root,text="ScPyセットアップ")
+    lab.place(x=320,y=475)
     button = tk.Button(root, text="次へ、",command=nextpage)
     button.place(x=550,y=400)
 
