@@ -51,10 +51,8 @@ def main(u_namename):
 
     lbl2 = Label(text="パスワード")
     lbl2.place(x=300,y=200)
-    uporlbl = Label(text="(こちらはhttps://scratch.mit.edu に送信され、一切qwe0412/Kjhuioには送信されません。")
+    uporlbl = Label(text="(こちらはhttps://scratch.mit.edu に送信され、一切qwe0412/Kjhuioには送信されません。)")
     uporlbl.place(x=0,y=445)
     txt2 = Entry(width=20,show="*")
     txt2.place(x=280, y=240)
-    upppppppppppoop = Label(text="詳しくは、https://github.com/kjhuio/scpy-sorce/privacy.md をご覧ください。)")
-    upppppppppppoop.place(x=40,y=460)
     root.mainloop()
