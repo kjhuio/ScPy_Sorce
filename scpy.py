@@ -16,6 +16,7 @@ def passkey_remove():
 startscr_lab = tk.Label(startscr,text="ScPyをスタートしています。\nStarting ScPy")
 startscr_lab.place(x=1,y=10)
 
+
 time.sleep(5)
 
 try :
